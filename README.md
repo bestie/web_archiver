@@ -9,7 +9,7 @@ Currently this only really works for its original purpose of archiving network54
 ## Usage
   `irb > require 'web_archiver'`
   
-  `irb > WebArchiver::Crawler.new('http://mydomain.com/')`
+  `irb > WebArchiver::Crawler.new('http://mydomain.com/').go!`
 
 ## Wish List
 
